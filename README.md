@@ -1,8 +1,11 @@
 ### Comando GROUP BY
 
 Serve para agrupar registros semelhantes de uma coluna 
+
 Normalmente utilizado com comandos de agragação (min, max, count, sum)
+
 Pode-se referenciar a coluna a ser agrupada pela sua posição ordinal, ex: group by 1,2,3 
+
 O group by sozinho funciona como um distinct, eliminando linhas duplicadas. 
 
 #### Calcule os clientes por estado e status profissional. Agrupe de maneira correta, deixando o resultado organizado
